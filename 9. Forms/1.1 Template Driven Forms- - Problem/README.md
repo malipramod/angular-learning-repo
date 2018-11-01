@@ -1,27 +1,21 @@
-# 1. Template Driven Forms
+# Template Driven Forms
+How to use
+----------
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+Run "npm install" inside this project folder to install all dependencies.
 
-## Development server
+Make sure you use the latest version of the CLI (upgrade guide below)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run "ng serve" to see the app in action (try "npm start" in case "ng serve" fails).
 
-## Code scaffolding
+Feel free to compare it with your project code to spot any errors you might have.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+How to upgrade the CLI
+-----------------------
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run the below commands - only use "sudo" on Mac/ Linux.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+sudo npm uninstall -g angular-cli @angular/cli
+npm cache clean --force
+sudo npm install -g @angular/cli
