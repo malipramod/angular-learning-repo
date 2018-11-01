@@ -1,6 +1,7 @@
 {
-  "name": "my-first-app",
+  "name": "component-and-databinding",
   "version": "0.0.0",
+  "Author":"Pramod Mali",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
