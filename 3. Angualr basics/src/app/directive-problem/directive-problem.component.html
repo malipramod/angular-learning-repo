@@ -1,0 +1,13 @@
+<button (click)="toggleDetails()" class="btn btn-primary">Dsiplay Details</button>
+<p *ngIf="displayDetails">
+  This are some details
+</p>
+
+
+<!-- <p>Button Clicked</p> -->
+<div *ngFor="let item of buttonArray; let itt = index" [ngStyle]="{backgroundColor:itt>4?'blue':'white'}" 
+  [ngClass]= "{'text-white': itt>=4}"
+  >
+  {{item}}
+</div>
+
