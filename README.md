@@ -6,8 +6,9 @@ Leaning Angular 2.0+
     2. TypeScript Basics
     3. Angular Basics
     4. Component and Databinding
-        4.1 Problem
+        4.1 Component and Databinding Problem
     5. Angular Directives
     6. Services
         6.1 Service Problem
     7. Routing
+    8. Observables
