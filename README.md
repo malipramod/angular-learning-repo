@@ -10,3 +10,4 @@ Leaning Angular 2.0+
     5. Angular Directives
     6. Services
         6.1 Service Problem
+    7. Routing
