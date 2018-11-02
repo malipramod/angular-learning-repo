@@ -1,0 +1,45 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
+      <!--
+          Create a Form with the following Controls and Validators
+          1) Project Name (should not be empty)
+          2) Mail (should not be a empty and a valid email)
+          3) Project Status Dropdown, with three values: 'Stable', 'Critical', 'Finished'
+          4) Submit Button
+
+          Add your own Validator which doesn't allow "Test" as a Project Name
+
+          Also implement that Validator as an async Validator (replace the other one)
+
+          Upon submitting the form, simply print the value to the console
+      -->
+      <form [formGroup]="projectForm" (ngSubmit)="onSubmit()">
+        <div formGroupName="projectData">
+          <div class="form-group">
+            <label for="project">Project</label>
+            <input type="text" id="project" formControlName="project" class="form-control">
+            <span *ngIf="!projectForm.get('projectData.project').valid && projectForm.get('projectData.project').touched"
+              class="help-block">
+              <span *ngIf="projectForm.get('projectData.project').errors['nameIsForbidden']">This Project Name is invalid</span>
+              <span *ngIf="projectForm.get('projectData.project').errors['required']">This field is required!</span>
+            </span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" formControlName="email" class="form-control">
+            <span *ngIf="!projectForm.get('projectData.email').valid && projectForm.get('projectData.email').touched" class="help-block">Please enter a valid email!</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label >Project Status</label>
+          <select id="status" formControlName="status"  class="form-control" >
+            <option *ngFor="let status of statues" value="{{status}}">{{status}}</option>
+          </select>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>

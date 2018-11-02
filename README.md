@@ -12,3 +12,8 @@ Leaning Angular 2.0+
         6.1 Service Problem
     7. Routing
     8. Observables
+    9. Forms
+        9.1 Template Driven Forms
+        9.2 Template Driven Forms- - Problem
+        9.3 Reactive Forms
+        9.5 Reactive Forms -- Problem
