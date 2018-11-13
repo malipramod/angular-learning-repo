@@ -18,3 +18,4 @@ Leaning Angular 2.0+
         9.3 Reactive Forms
         9.5 Reactive Forms -- Problem
     10. Pipes
+    11. HTTP
