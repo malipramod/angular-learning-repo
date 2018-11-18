@@ -22,3 +22,4 @@ Leaning Angular 2.0+
     12. Recipe Book Project
     13. Angular Animation
     14. Offline Worker and PWA
+    15. Angular Testing
