@@ -1,5 +1,13 @@
 # Angular Testing
 
+# References
+
+https://angular.io/guide/testing
+https://semaphoreci.com/community/tutorials/testing-components-in-angular-2-with-jasmine
+https://github.com/angular/angular-cli/wiki/test
+https://github.com/angular/angular-cli/wiki/e2e
+
+
 How to use
 ----------
 
