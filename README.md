@@ -19,3 +19,5 @@ Leaning Angular 2.0+
         9.5 Reactive Forms -- Problem
     10. Pipes
     11. HTTP
+    12. Recipe Book Project
+    13. Angular Animation
