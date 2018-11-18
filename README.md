@@ -21,3 +21,4 @@ Leaning Angular 2.0+
     11. HTTP
     12. Recipe Book Project
     13. Angular Animation
+    14. Offline Worker and PWA
