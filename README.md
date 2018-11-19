@@ -19,7 +19,7 @@ Leaning Angular 2.0+
         9.5 Reactive Forms -- Problem
     10. Pipes
     11. HTTP
-    12. Recipe Book Project
+    12. Recipe Book Project (URL: https://recipebook-pm.firebaseapp.com/)
     13. Angular Animation
     14. Offline Worker and PWA
     15. Angular Testing
